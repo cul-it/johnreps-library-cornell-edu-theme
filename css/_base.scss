@@ -6,6 +6,8 @@ body {
 	background: white;
 	padding-top: 0; // override overrides.css
 }
+body.toolbar,
+body.toolbar-drawer { padding-top: 0; } // override overrides.css
 
 /* Links */
 /*------------------------------*/
