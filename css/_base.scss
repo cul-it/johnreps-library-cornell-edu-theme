@@ -57,7 +57,7 @@ body {
 
 .main-content {
 	p { 
-		font-size: 1em;
+		font-size: .875em;
 		line-height: 1.75em; }
 	h2 {
 		margin: 0 0 1em;
@@ -65,7 +65,9 @@ body {
 		color: black;
 		font-size: 1.5em;
 		line-height: 1.25em; }
-	li { font-size: 1em; }
+	li { 
+		font-size: .875em;
+		margin-bottom: .5em; }
 }
 
 /* Images */

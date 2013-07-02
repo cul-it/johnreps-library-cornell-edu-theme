@@ -105,7 +105,7 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   line-height: 40px; }
 
 .main-content p {
-  font-size: 1em;
+  font-size: .875em;
   line-height: 1.75em; }
 .main-content h2 {
   margin: 0 0 1em;
@@ -114,7 +114,8 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   font-size: 1.5em;
   line-height: 1.25em; }
 .main-content li {
-  font-size: 1em; }
+  font-size: .875em;
+  margin-bottom: .5em; }
 
 /* Images */
 /*------------------------------*/
