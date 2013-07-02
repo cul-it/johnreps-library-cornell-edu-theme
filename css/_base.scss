@@ -95,6 +95,4 @@ body {
 .main-content {
 	header, footer { border: none; }
 }
-.contextual-links-trigger:hover { 
-	background: transparent;
-	color: inherit; }
+.contextual-links-trigger:hover { background: transparent url(images/gear-select.png) no-repeat 2px 0; }
