@@ -1,0 +1,84 @@
+body {
+	font-size: 100%;
+	font-family: $baseFontFamily;
+	font-weight: 400;
+	color: $textColorDark;
+	background: white;
+}
+
+/* Links */
+/*------------------------------*/
+a { color: $red; }
+a:visited { background: white; }
+a:hover { 
+	background: $red;
+	color: white;
+	text-decoration: none; }
+a:active { 
+	color: $red;
+	background: white; }
+
+
+/* Branding */
+/*------------------------------*/
+
+.site-title {
+	text-align: right;
+	h1 { 
+		font-size: 2.625em;
+		text-transform: uppercase;
+		margin: 50px 0;
+		font-weight: 700;
+		a { color: black; }
+		a:hover { 
+			color: black;
+			background: inherit; }
+	}
+}
+
+.site-subtitle {
+	h2 {
+		font-weight: 400;
+		font-size: 1.5em;
+		color: $cornell-primary;
+		text-transform: uppercase;
+		margin-top: 55px; }
+}
+
+/* Typography */
+/*------------------------------*/
+
+.main-content {
+	p { 
+		font-size: .875em;
+		line-height: 1.75em; }
+	h2 {
+		margin: 0 0 1em;
+		text-transform: uppercase;
+		color: black;
+		font-size: 1.5em;
+		line-height: 1.25em; }
+}
+
+/* Images */
+/*------------------------------*/
+
+
+/* Miscellaneous */
+/*------------------------------*/
+.main-content {
+	.caption { 
+	color: $mediumGray;
+	margin-top: .5em;
+	font-size: .75em; }
+}
+.emphasize { font-size: 150%; }
+
+/* IE8 */
+/*------------------------------*/
+.ie7,
+.ie8 {
+	.site-title {
+		h1 { font-size: 2em; }
+	}
+}

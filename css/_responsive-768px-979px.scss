@@ -1,0 +1,31 @@
+//
+// Responsive: Tablet to desktop
+// --------------------------------------------------
+
+@media (min-width: 768px) and (max-width: 979px) {
+	body { font-size: 90%; }
+	.navbar {
+		// override bootstrap nav collapse at this size
+		.btn-navbar { display: none; }
+	}
+	// override bootstrap nav collapse at this size
+	.nav-collapse, 
+	.nav-collapse.collapse { overflow: visible; }
+	.nav-collapse {
+		.nav > li { 
+			float: none;
+			font-size: 90%; }
+		.nav > li > a { 
+			font-weight: normal;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0; }
+		.nav > li > a:hover { background: inherit; }
+	}
+	.site-title {
+		h1 { font-size: 2em; }
+	}
+	.site-subtitle {
+		h2 { font-size: 1.1em; }
+	}
+}

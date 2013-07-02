@@ -1,0 +1,72 @@
+/* Site branding and top navigation */
+/*----------------------------------*/
+
+.navbar {
+	margin-bottom: 0;
+	text-align: right;
+	.container { width: 1170px; } // bootstrap override to set fixed width
+	.brand {
+		float: none;
+		font-size: 1.125em;
+		color: $red;
+		margin-bottom: 5px;
+		font-weight: 400;
+		text-shadow: 0;
+		.site-title {
+			font-size: 1.875em;
+			display: block;
+			margin-top: .25em;
+		}
+	}
+	.nav {
+		float: right;
+		margin-right: 0;
+		margin-bottom: 60px;
+		li {
+			float: none;
+			a {
+				text-shadow: 0 0 0;
+				color: $mediumGray; 
+				font-size: 1em;
+				padding: 5px 0;
+				text-transform: uppercase; }
+			a:hover { 
+				color: $red; }
+		}
+		li:first-child {
+			a { border: none; }
+		}
+		li.active {
+			a, 
+			a:hover {
+				color: black;
+				background: inherit;
+				-webkit-box-shadow: none;
+				-moz-box-shadow: none;
+				box-shadow: none; }
+		}
+	}
+}
+
+
+/* Sidebar navigation */
+/*------------------------------*/
+.sidebar-nav {
+	list-style: none;
+	margin-left: 0;
+	li { margin-bottom: .25em; }
+	a {
+		display: inline-block;
+		background: $paleGray;
+		color: #666;
+		padding: 15px 25px 15px 15px; }
+	a:hover { 
+		background: $lightGray;
+		text-decoration: none; }
+	li.active {
+		a,
+		a:hover { 
+			color: white;
+			background: $darkTeal; }
+	}
+}

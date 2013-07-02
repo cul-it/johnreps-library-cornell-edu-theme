@@ -1,0 +1,16 @@
+//
+// Responsive: Phone
+// --------------------------------------------------
+
+@media (max-width: 480px) {
+	.navbar {
+		.btn-navbar { margin-top: -200px; }
+	}
+	.site-title {
+		h1 { margin-bottom: 0.5em; }
+	}
+	.site-subtitle {
+		h2 { line-height: 1.2em; }
+	}
+}
+
