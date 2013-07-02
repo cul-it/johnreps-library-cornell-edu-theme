@@ -162,7 +162,8 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
     margin-right: 0;
     margin-bottom: 60px; }
     .navbar .nav li {
-      float: none; }
+      float: none;
+      font-size: 1em; }
       .navbar .nav li a {
         text-shadow: 0 0 0;
         color: #8a8782;
