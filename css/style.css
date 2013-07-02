@@ -206,7 +206,7 @@ a:active {
 
 /* Home page */
 /*------------------------------*/
-body.front h2 {
+body.front .main-content h2 {
   display: none; }
 
 /* Header */

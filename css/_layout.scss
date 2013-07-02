@@ -15,7 +15,9 @@
 /* Home page */
 /*------------------------------*/
 body.front {
-	h2 { display: none; } // hide Drupal home page welcome header
+	.main-content {
+		h2 { display: none; } // hide Drupal home page welcome header
+	}
 }
 
 
