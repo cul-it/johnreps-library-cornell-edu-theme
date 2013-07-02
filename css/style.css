@@ -139,7 +139,7 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   border: none; }
 
 .contextual-links-trigger:hover {
-  background: inherit; }
+  background: transparent url(images/gear-select.png) no-repeat 2px 0; }
 
 /* Site branding and top navigation */
 /*----------------------------------*/
