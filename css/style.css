@@ -69,8 +69,9 @@ a:visited {
   background: white; }
 
 a:hover {
-  color: #a52615;
-  text-decoration: underline; }
+  background: #a52615;
+  color: white;
+  text-decoration: none; }
 
 a:active {
   color: #a52615;
