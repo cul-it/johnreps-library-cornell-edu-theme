@@ -13,10 +13,7 @@ body.toolbar-drawer { padding-top: 65px !important; } // override overrides.css
 /*------------------------------*/
 a { color: $red; }
 a:visited { background: white; }
-a:hover { 
-	background: $red;
-	color: white;
-	text-decoration: none; }
+a:hover { text-decoration: underline; }
 a:active { 
 	color: $red;
 	background: white; }
@@ -95,4 +92,3 @@ body {
 .main-content {
 	header, footer { border: none; }
 }
-.contextual-links-trigger:hover { background: transparent url(images/gear-select.png) no-repeat 2px 0; }

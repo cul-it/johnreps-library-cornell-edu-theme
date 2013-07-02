@@ -69,9 +69,7 @@ a:visited {
   background: white; }
 
 a:hover {
-  background: #a52615;
-  color: white;
-  text-decoration: none; }
+  text-decoration: underline; }
 
 a:active {
   color: #a52615;
@@ -137,9 +135,6 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 /*------------------------------*/
 .main-content header, .main-content footer {
   border: none; }
-
-.contextual-links-trigger:hover {
-  background: transparent url(images/gear-select.png) no-repeat 2px 0; }
 
 /* Site branding and top navigation */
 /*----------------------------------*/
