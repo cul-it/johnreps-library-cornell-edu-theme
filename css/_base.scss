@@ -79,9 +79,14 @@ a:active {
 
 /* IE8 */
 /*------------------------------*/
-.ie7,
 .ie8 {
 	.site-title {
 		h1 { font-size: 2em; }
 	}
+}
+
+/* Drupal UI bug fixes */
+/*------------------------------*/
+.main-content {
+	header, footer { border: none; }
 }
