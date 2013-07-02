@@ -123,7 +123,7 @@
           </div>
         </div>
         <?php if ($sidebar): ?>
-          <?php print $sidebar; ?>
+          <?php print render($page['sidebar']); ?>
         <?php endif; ?>
       </div>
       <div class="span6 offset1 main-text">
