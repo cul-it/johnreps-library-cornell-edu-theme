@@ -104,16 +104,16 @@ a:active {
 body h1, body h2, body h3, body h4, body h5, body h6 {
   line-height: 40px; }
 
-.main-content p {
+.main-text p {
   font-size: .875em;
   line-height: 1.75em; }
-.main-content h2 {
+.main-text h2 {
   margin: 0 0 1em;
   text-transform: uppercase;
   color: black;
   font-size: 1.5em;
   line-height: 1.25em; }
-.main-content li {
+.main-text li {
   font-size: .875em;
   margin-bottom: .5em; }
 
