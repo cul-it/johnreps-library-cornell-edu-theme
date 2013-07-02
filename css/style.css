@@ -251,7 +251,8 @@ footer {
   footer a {
     color: #948c88; }
   footer a:hover {
-    color: white; }
+    color: white;
+    background: #a52615; }
   footer p {
     font-size: .875em; }
 

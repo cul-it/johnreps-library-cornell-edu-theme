@@ -55,7 +55,9 @@ footer {
 		}
 	}
 	a { color: $footerLink; }
-	a:hover { color: white; }
+	a:hover { 
+		color: white;
+		background: $red; }
 	p { font-size: .875em; }
 }
 
