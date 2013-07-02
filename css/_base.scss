@@ -4,6 +4,7 @@ body {
 	font-weight: 400;
 	color: $textColorDark;
 	background: white;
+	padding-top: 0; // override overrides.css
 }
 
 /* Links */
