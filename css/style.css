@@ -58,7 +58,7 @@ body {
 
 body.toolbar,
 body.toolbar-drawer {
-  padding-top: 0; }
+  padding-top: 0 !important; }
 
 /* Links */
 /*------------------------------*/
