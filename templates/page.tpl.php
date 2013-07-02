@@ -145,7 +145,7 @@
 </section>
 
 <section class="hero">
-  <img src="<?php print $base_path ?>images/slideshow/placeholder.jpg" alt=" ">
+  <img src="/sites/all/themes/bootstrap_johnreps/images/slideshow/placeholder.jpg" alt=" ">
 </section>
 
 <footer>
