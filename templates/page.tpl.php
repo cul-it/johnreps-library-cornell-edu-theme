@@ -75,7 +75,7 @@
     <div class="row">
       <div class="span5">
         <div class="cu-logo">
-          <img src="/sites/all/themes/johnrepstheme/images/cul-logo-gray.gif">
+          <img src="/sites/all/themes/bootstrap_johnreps/images/cul-logo-gray.gif">
           <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
           <div class="unit-signature-links">
             <a id="cornell-link" href="http://www.cornell.edu/">Cornell University</a>
@@ -147,7 +147,7 @@
 </section>
 
 <section class="hero">
-  <img src="/sites/all/themes/johnrepstheme/images/slideshow/placeholder.jpg" alt=" ">
+  <img src="/sites/all/themes/bootstrap_johnreps/images/slideshow/placeholder.jpg" alt=" ">
 </section>
 
 <footer>
