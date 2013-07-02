@@ -75,7 +75,6 @@
     <div class="row">
       <div class="span5">
         <div class="cu-logo">
-          <?php print $base_path; ?>
           <img src="/sites/all/themes/johnrepstheme/images/cul-logo-gray.gif">
           <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
           <div class="unit-signature-links">
