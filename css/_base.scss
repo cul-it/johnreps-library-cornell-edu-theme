@@ -13,7 +13,9 @@ body.toolbar-drawer { padding-top: 65px !important; } // override overrides.css
 /*------------------------------*/
 a { color: $red; }
 a:visited { background: white; }
-a:hover { text-decoration: underline; }
+a:hover { 
+	color: $red;
+	text-decoration: underline; }
 a:active { 
 	color: $red;
 	background: white; }
