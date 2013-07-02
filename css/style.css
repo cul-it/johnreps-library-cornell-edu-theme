@@ -204,6 +204,11 @@ a:active {
   padding: 20px 40px;
   background: #a52615; }
 
+/* Home page */
+/*------------------------------*/
+body.home h2 {
+  display: none; }
+
 /* Header */
 /*------------------------------*/
 header {

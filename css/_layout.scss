@@ -12,6 +12,13 @@
 }
 
 
+/* Home page */
+/*------------------------------*/
+body.home {
+	h2 { display: none; } // hide Drupal home page welcome header
+}
+
+
 /* Header */
 /*------------------------------*/
 header { border-top: 5px solid $red; }
