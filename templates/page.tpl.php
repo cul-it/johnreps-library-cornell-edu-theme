@@ -122,9 +122,7 @@
             </div>
           </div>
         </div>
-        <?php if ($sidebar): ?>
-          <?php print render($page['sidebar']); ?>
-        <?php endif; ?>
+        <?php print render($page['sidebar']); ?>
       </div>
       <div class="span6 offset1 main-text">
         <?php print render($page['highlighted']); ?>
