@@ -1,79 +1,372 @@
-/*
-Syntax error: Invalid CSS after "	li { font-size: 1": expected ";", was ".em; }"
-        on line 68 of _base.scss
-        from line 6 of style.scss
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+.cornell-identity {
+  width: 100%;
+  background: #4d4e53;
+  height: 75px;
+  font-family: verdana, sans-serif; }
 
-63: 		margin: 0 0 1em;
-64: 		text-transform: uppercase;
-65: 		color: black;
-66: 		font-size: 1.5em;
-67: 		line-height: 1.25em; }
-68: 	li { font-size: 1.em; }
-69: }
-70: 
-71: /* Images */
-72: /*------------------------------*/
-73: 
+.cu-logo {
+  display: block;
+  background: url("../images/cul-logo-gray.gif") no-repeat 0 0;
+  width: 263px;
+  height: 75px; }
+  .cu-logo a {
+    display: block;
+    border: none;
+    text-indent: -1000em;
+    text-decoration: none; }
+  .cu-logo a:hover {
+    background: inherit; }
+  .cu-logo a#insignia-link {
+    float: left;
+    width: 68px;
+    height: 75px; }
+  .cu-logo #unit-signature-links {
+    float: left; }
+  .cu-logo a#cornell-link {
+    left: 68px;
+    height: 35px; }
+  .cu-logo a#unit-link {
+    top: 38px;
+    height: 37px; }
+  .cu-logo img {
+    display: none; }
 
-Backtrace:
-_base.scss:68
-style.scss:6
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:1148:in `expected'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:1084:in `expected'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:1079:in `tok!'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:586:in `block in declaration_or_ruleset'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:1122:in `call'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:1122:in `rethrow'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:592:in `declaration_or_ruleset'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:554:in `block_child'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:543:in `block_contents'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:535:in `block'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:529:in `ruleset'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:591:in `block in declaration_or_ruleset'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:1122:in `call'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:1122:in `rethrow'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:592:in `declaration_or_ruleset'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:554:in `block_child'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:546:in `block_contents'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:535:in `block'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:529:in `ruleset'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:553:in `block_child'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:546:in `block_contents'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:82:in `stylesheet'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/scss/parser.rb:27:in `parse'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/engine.rb:342:in `_to_tree'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/engine.rb:274:in `to_tree'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/tree/root_node.rb:20:in `render'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/engine.rb:315:in `_render'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/engine.rb:262:in `render'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/plugin/compiler.rb:341:in `update_stylesheet'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/plugin/compiler.rb:201:in `each'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/sass-3.2.8/lib/sass/plugin/compiler.rb:299:in `block in watch'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/listen-0.7.3/lib/listen/multi_listener.rb:108:in `call'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/listen-0.7.3/lib/listen/multi_listener.rb:108:in `on_change'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/listen-0.7.3/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/listen-0.7.3/lib/listen/adapter.rb:198:in `call'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/listen-0.7.3/lib/listen/adapter.rb:198:in `report_changes'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/listen-0.7.3/lib/listen/adapter.rb:210:in `poll_changed_dirs'
-/Users/mhk33/.rvm/gems/ruby-1.9.3-p194@sass-gemset/gems/listen-0.7.3/lib/listen/adapters/darwin.rb:38:in `block in start'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"	li { font-size: 1\": expected \";\", was \".em; }\"\A         on line 68 of _base.scss\A         from line 6 of style.scss\A \A 63: 		margin: 0 0 1em;\A 64: 		text-transform: uppercase;\A 65: 		color: black;\A 66: 		font-size: 1.5em;\A 67: 		line-height: 1.25em; }\A 68: 	li { font-size: 1.em; }\A 69: }\A 70: \A 71: /* Images */\A 72: /*------------------------------*/\A 73: "; }
+.search-links {
+  text-align: right;
+  margin-top: 20px; }
+  .search-links ul {
+    padding-top: 10px;
+    list-style: none; }
+  .search-links li {
+    display: inline; }
+  .search-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.6875em;
+    padding: 5px 15px; }
+  .search-links a:hover {
+    background: #990f26; }
+
+body {
+  font-size: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #444444;
+  background: white;
+  padding-top: 0; }
+
+body.toolbar,
+body.toolbar-drawer {
+  padding-top: 65px !important; }
+
+/* Links */
+/*------------------------------*/
+a {
+  color: #a52615; }
+
+a:visited {
+  background: white; }
+
+a:hover {
+  background: #a52615;
+  color: white;
+  text-decoration: none; }
+
+a:active {
+  color: #a52615;
+  background: white; }
+
+/* Branding */
+/*------------------------------*/
+.site-title {
+  text-align: right; }
+  .site-title h1 {
+    font-size: 2.625em;
+    text-transform: uppercase;
+    margin: 50px 0;
+    font-weight: 700; }
+    .site-title h1 a {
+      color: black; }
+    .site-title h1 a:hover {
+      color: black;
+      background: inherit; }
+
+.site-subtitle h2 {
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #4d4e53;
+  text-transform: uppercase;
+  margin-top: 55px; }
+
+/* Typography */
+/*------------------------------*/
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  line-height: 40px; }
+
+.main-content p {
+  font-size: 1em;
+  line-height: 1.75em; }
+.main-content h2 {
+  margin: 0 0 1em;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.5em;
+  line-height: 1.25em; }
+.main-content li {
+  font-size: 1em; }
+
+/* Images */
+/*------------------------------*/
+/* Miscellaneous */
+/*------------------------------*/
+.main-content .caption {
+  color: #8a8782;
+  margin-top: .5em;
+  font-size: .75em; }
+
+.emphasize {
+  font-size: 150%; }
+
+/* IE8 */
+/*------------------------------*/
+.ie8 .site-title h1 {
+  font-size: 2em; }
+
+/* Drupal UI bug fixes */
+/*------------------------------*/
+.main-content header, .main-content footer {
+  border: none; }
+
+/* Site branding and top navigation */
+/*----------------------------------*/
+.navbar {
+  margin-bottom: 0;
+  text-align: right; }
+  .navbar .container {
+    width: 1170px; }
+  .navbar .brand {
+    float: none;
+    font-size: 1.125em;
+    color: #a52615;
+    margin-bottom: 5px;
+    font-weight: 400;
+    text-shadow: 0; }
+    .navbar .brand .site-title {
+      font-size: 1.875em;
+      display: block;
+      margin-top: .25em; }
+  .navbar .nav {
+    float: right;
+    margin-right: 0;
+    margin-bottom: 60px; }
+    .navbar .nav li {
+      float: none; }
+      .navbar .nav li a {
+        text-shadow: 0 0 0;
+        color: #8a8782;
+        font-size: 1em;
+        padding: 5px 0;
+        text-transform: uppercase; }
+      .navbar .nav li a:hover {
+        color: #a52615; }
+    .navbar .nav li:first-child a {
+      border: none; }
+    .navbar .nav li.active a,
+    .navbar .nav li.active a:hover {
+      color: black;
+      background: inherit;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
+
+/* Sidebar navigation */
+/*------------------------------*/
+.sidebar-nav {
+  list-style: none;
+  margin-left: 0; }
+  .sidebar-nav li {
+    margin-bottom: .25em; }
+  .sidebar-nav a {
+    display: inline-block;
+    background: #efebeb;
+    color: #666;
+    padding: 15px 25px 15px 15px; }
+  .sidebar-nav a:hover {
+    background: #cfcfcf;
+    text-decoration: none; }
+  .sidebar-nav li.active a,
+  .sidebar-nav li.active a:hover {
+    color: white;
+    background: #15594a; }
+
+/* Hero */
+/*------------------------------*/
+.hero img {
+  width: 100%; }
+.hero h1 {
+  margin: -40px 0 40px -60px;
+  padding: 20px 40px;
+  background: #a52615; }
+
+/* Home page */
+/*------------------------------*/
+body.front .main-content h2 {
+  display: none; }
+
+/* Header */
+/*------------------------------*/
+header {
+  border-top: 5px solid #a52615; }
+
+/* Main content on sub pages */
+/*------------------------------*/
+.main-content .container {
+  padding-bottom: 60px; }
+
+/* Footer */
+/*------------------------------*/
+footer {
+  color: #8a8782;
+  border-top: 5px solid #a52615; }
+  footer .container {
+    padding: 30px 0; }
+  footer ul.footer-nav {
+    list-style: none;
+    margin: 0 0 1em; }
+    footer ul.footer-nav li {
+      display: inline-block;
+      font-size: .875em;
+      border-left: 1px solid #cfcfcf;
+      padding: 0 5px 0 10px; }
+    footer ul.footer-nav li:first-child {
+      border-left: none;
+      padding-left: 0; }
+    footer ul.footer-nav li.active {
+      color: black; }
+      footer ul.footer-nav li.active a {
+        color: black; }
+  footer a {
+    color: #948c88; }
+  footer a:hover {
+    color: white; }
+  footer p {
+    font-size: .875em; }
+
+/* Sidebar images */
+/*------------------------------*/
+.sidebar-image {
+  clear: both;
+  text-align: right;
+  margin: 0 0 40px; }
+  .sidebar-image img {
+    border-bottom: 3px solid #a52615; }
+
+@media (min-width: 980px) and (max-width: 1199px) {
+  .site-title h1 {
+    font-size: 2.5em; }
+
+  .site-subtitle h2 {
+    font-size: 1.25em; } }
+@media (min-width: 768px) and (max-width: 979px) {
+  body {
+    font-size: 90%; }
+
+  .navbar .btn-navbar {
+    display: none; }
+
+  .nav-collapse,
+  .nav-collapse.collapse {
+    overflow: visible; }
+
+  .nav-collapse .nav > li {
+    float: none;
+    font-size: 90%; }
+  .nav-collapse .nav > li > a {
+    font-weight: normal;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0; }
+  .nav-collapse .nav > li > a:hover {
+    background: inherit; }
+
+  .site-title h1 {
+    font-size: 2em; }
+
+  .site-subtitle h2 {
+    font-size: 1.1em; } }
+@media (max-width: 767px) {
+  body {
+    padding: 0;
+    margin: 0;
+    font-size: 90%; }
+
+  .navbar {
+    text-align: left; }
+    .navbar .btn-navbar {
+      background: #8a8782;
+      margin-top: -120px;
+      display: block; }
+    .navbar .btn-navbar:hover {
+      background: #8a8782; }
+    .navbar .nav {
+      float: none;
+      padding: 5px 0; }
+      .navbar .nav li a,
+      .navbar .nav li a:hover {
+        background-image: none;
+        border: 0; }
+      .navbar .nav li a {
+        color: #8a8782;
+        font-weight: normal;
+        padding-left: 10px; }
+      .navbar .nav li.active a,
+      .navbar .nav li.active a:hover {
+        background: #a52615;
+        color: white;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0; }
+
+  .site-title {
+    text-align: left; }
+    .site-title h1 {
+      margin: 50px 0 0; }
+
+  .site-subtitle h2 {
+    margin-top: 0; }
+
+  .container {
+    padding: 0 10px; }
+
+  .nav-collapse {
+    background: #cfcfcf;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    .nav-collapse .nav > li > a:hover,
+    .nav-collapse .nav > li > a {
+      font-weight: normal;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0; }
+    .nav-collapse .nav {
+      margin: 0; }
+    .nav-collapse .nav > li > a {
+      margin-bottom: 0; }
+
+  footer .container {
+    padding: 20px 10px; }
+  footer ul.footer-nav li {
+    margin-bottom: 5px; }
+
+  .sidebar-image {
+    text-align: center; } }
+@media (max-width: 480px) {
+  .navbar .btn-navbar {
+    margin-top: -200px; }
+
+  .site-title h1 {
+    margin-bottom: 0.5em; }
+
+  .site-subtitle h2 {
+    line-height: 1.2em; } }
