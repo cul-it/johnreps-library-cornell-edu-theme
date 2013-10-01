@@ -93,5 +93,28 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
+
+  <?php if ($is_front): ?>
+    <script type="text/javascript" src="/sites/all/themes/bootstrap_johnreps/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="/sites/all/themes/bootstrap_johnreps/js/supersized.3.2.7.min.js"></script>
+    <script type="text/javascript">
+      jQuery(function($){  
+        $.supersized({
+          // Functionality
+          slide_interval          :   5000,   // Length between transitions
+          transition              :   1,      // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+          transition_speed    : 1500,    // Speed of transition             
+          // Components             
+          slide_links       : 'blank',  // Individual links for each slide (Options: false, 'num', 'name', 'blank')
+          slides          :   [     // Slideshow Images
+                            {image : '/sites/all/themes/bootstrap_anthro/images/slideshow/reps00001.jpg'},
+                            {image : '/sites/all/themes/bootstrap_anthro/images/slideshow/reps00004.jpg'},  
+                            {image : '/sites/all/themes/bootstrap_anthro/images/slideshow/reps00020.jpg'},
+                        ]
+          
+        });
+        });
+    </script>
+  <?php endif; ?>
 </body>
 </html>
