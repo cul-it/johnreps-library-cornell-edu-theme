@@ -144,11 +144,9 @@
   </div>
 </section>
 
-<?php if (drupal_is_front_page): ?>
-  <section class="hero">
-    <?php print render($page['hero']); ?>
-  </section>
-<?php endif; ?>
+<section class="hero">
+  <?php print render($page['hero']); ?>
+</section>
 
 <footer>
   <div class="container">
