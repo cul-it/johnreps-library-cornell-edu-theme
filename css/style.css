@@ -204,12 +204,14 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 
 /* Hero */
 /*------------------------------*/
-.hero img {
-  width: 100%; }
-.hero h1 {
-  margin: -40px 0 40px -60px;
-  padding: 20px 40px;
+.hero {
   background: #a52615; }
+  .hero img {
+    width: 100%; }
+  .hero h1 {
+    margin: -40px 0 40px -60px;
+    padding: 20px 40px;
+    background: #a52615; }
 
 .views-slideshow-cycle-main-frame {
   width: 100% !important; }
