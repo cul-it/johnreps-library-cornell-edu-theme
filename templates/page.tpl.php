@@ -145,7 +145,7 @@
 </section>
 
 <section class="hero">
-  <img src="/sites/all/themes/bootstrap_johnreps/images/slideshow/placeholder.jpg" alt=" ">
+  <?php print render($page['hero']); ?>
 </section>
 
 <footer>
