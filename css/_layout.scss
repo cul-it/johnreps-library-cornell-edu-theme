@@ -10,7 +10,13 @@
 		padding: 20px 40px;
 		background: $red; }
 }
-
+// override default slideshow px width
+.views-slideshow-cycle-main-frame {
+  width: 100% !important;
+}
+.views-slideshow-cycle-main-frame-row {
+  position: relative !important;
+}
 
 /* Home page */
 /*------------------------------*/
