@@ -107,9 +107,9 @@
           // Components             
           slide_links       : 'blank',  // Individual links for each slide (Options: false, 'num', 'name', 'blank')
           slides          :   [     // Slideshow Images
-                            {image : '/sites/all/themes/bootstrap_anthro/images/slideshow/reps00001.jpg'},
-                            {image : '/sites/all/themes/bootstrap_anthro/images/slideshow/reps00004.jpg'},  
-                            {image : '/sites/all/themes/bootstrap_anthro/images/slideshow/reps00020.jpg'},
+                            {image : '/sites/all/themes/bootstrap_johnreps/images/slideshow/reps00001.jpg'},
+                            {image : '/sites/all/themes/bootstrap_johnreps/images/slideshow/reps00004.jpg'},  
+                            {image : '/sites/all/themes/bootstrap_johnreps/images/slideshow/reps00020.jpg'},
                         ]
           
         });
