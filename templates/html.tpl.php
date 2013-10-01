@@ -99,7 +99,7 @@
       (function($){
         $(window).resize(function() {
           $('.views_slideshow_singleframe_teaser_section, .views-slideshow-cycle-main-frame, .views-slideshow-cycle-main-frame-row').each(function(){
-          var ratio = 600 / 1600 ; //put your own height / width of main image style 
+          var ratio = 602 / 1600 ; //put your own height / width of main image style 
           $(this).height($(this).width() * ratio);
           });
         }); 
