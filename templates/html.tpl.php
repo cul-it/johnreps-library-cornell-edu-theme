@@ -93,5 +93,18 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
+
+  <?php if ($is_front): ?>
+    <script type="text/javascript">
+      (function($){
+        $(window).resize(function() {
+          $('.views_slideshow_singleframe_teaser_section, .views-slideshow-cycle-main-frame, .views-slideshow-cycle-main-frame-row').each(function(){
+          var ratio = 600 / 1600 ; //put your own height / width of main image style 
+          $(this).height($(this).width() * ratio);
+          });
+        }); 
+})(jQuery); 
+    </script>
+  <?php endif; ?>
 </body>
 </html>
