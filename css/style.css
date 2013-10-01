@@ -211,6 +211,12 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   padding: 20px 40px;
   background: #a52615; }
 
+.views-slideshow-cycle-main-frame {
+  width: 100% !important; }
+
+.views-slideshow-cycle-main-frame-row {
+  position: relative !important; }
+
 /* Home page */
 /*------------------------------*/
 body.front .main-content h2 {
