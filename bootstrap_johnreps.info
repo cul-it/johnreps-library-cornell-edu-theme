@@ -14,7 +14,6 @@ regions[hero] 			= 'Hero image'
 
 ; Stylesheets
 stylesheets[all][] = css/style.css
-stylesheets[all][] = css/supersized.css
 
 ; Scripts
 scripts[] = js/respond.min.js
