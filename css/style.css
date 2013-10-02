@@ -89,7 +89,7 @@ a:active {
     .site-title h1 a {
       color: black; }
     .site-title h1 a:hover {
-      color: black;
+      color: #a52615;
       background: inherit; }
 
 .site-subtitle h2 {
