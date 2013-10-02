@@ -99,6 +99,9 @@ a:active {
   text-transform: uppercase;
   margin-top: 55px; }
 
+.ie8 .site-subtitle h2 {
+  font-size: 1em; }
+
 /* Typography */
 /*------------------------------*/
 body h1, body h2, body h3, body h4, body h5, body h6 {
