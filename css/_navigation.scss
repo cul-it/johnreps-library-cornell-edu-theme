@@ -78,6 +78,10 @@
 .contextual-links-wrapper {
 	a:hover {
 		background: white;
-		color: inherit;
+	}
+}
+ul.contextual-links {
+	li {
+		a:hover { color: #333; }
 	}
 }

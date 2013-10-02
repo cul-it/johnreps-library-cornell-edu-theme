@@ -209,8 +209,10 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 /* Drupal admin links hover */
 /*------------------------------*/
 .contextual-links-wrapper a:hover {
-  background: white;
-  color: inherit; }
+  background: white; }
+
+ul.contextual-links li a:hover {
+  color: #333; }
 
 /* Hero */
 /*------------------------------*/
