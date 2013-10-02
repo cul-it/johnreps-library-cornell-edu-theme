@@ -377,7 +377,7 @@ footer {
     margin-bottom: 5px; }
 
   .sidebar-image {
-    text-align: center; } }
+    display: none; } }
 @media (max-width: 480px) {
   .navbar .btn-navbar {
     margin-top: -200px; }
