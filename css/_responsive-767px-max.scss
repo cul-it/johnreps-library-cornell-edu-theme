@@ -11,8 +11,9 @@
 		text-align: left;
 		.btn-navbar {
 			background: $mediumGray;
-			margin-top: -120px;
+			margin-top: -60px;
 			display: block;
+			border-radius: 0;
 		}
 		.btn-navbar:hover { background: $mediumGray; }
 		.nav {

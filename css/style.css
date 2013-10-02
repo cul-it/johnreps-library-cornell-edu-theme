@@ -322,8 +322,9 @@ footer {
     text-align: left; }
     .navbar .btn-navbar {
       background: #8a8782;
-      margin-top: -120px;
-      display: block; }
+      margin-top: -60px;
+      display: block;
+      border-radius: 0; }
     .navbar .btn-navbar:hover {
       background: #8a8782; }
     .navbar .nav {
