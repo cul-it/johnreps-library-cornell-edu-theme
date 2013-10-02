@@ -76,9 +76,11 @@ body {
 /*------------------------------*/
 .main-content {
 	.caption { 
-	color: $mediumGray;
-	margin-top: .5em;
-	font-size: .75em; }
+		color: $mediumGray;
+		margin-top: .5em;
+		font-size: .75em;
+		width: 250px;
+		float: right; }
 }
 .emphasize { font-size: 150%; }
 
