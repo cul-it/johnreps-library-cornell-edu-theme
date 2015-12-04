@@ -43,7 +43,7 @@
   .search-links a {
     color: white;
     text-decoration: none;
-    font-size: 0.6875em;
+    font-size: 12px;
     padding: 5px 15px; }
   .search-links a:hover {
     background: #990f26; }
@@ -52,7 +52,7 @@ body {
   font-size: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #444444;
+  color: #444;
   background: white;
   padding-top: 0; }
 
@@ -79,42 +79,31 @@ a:active {
 
 /* Branding */
 /*------------------------------*/
-.site-title {
-  text-align: right; }
-  .site-title h1 {
-    font-size: 2.625em;
-    text-transform: uppercase;
-    margin: 50px 0;
-    font-weight: 700; }
-    .site-title h1 a {
-      color: black; }
-    .site-title h1 a:hover {
-      color: #a52615;
-      background: inherit; }
-
-.site-subtitle h2 {
-  font-weight: 400;
-  font-size: 1.5em;
-  color: #4d4e53;
+.site-title h1 {
+  font-size: 40px;
   text-transform: uppercase;
-  margin-top: 55px; }
-
-.ie8 .site-subtitle h2 {
-  font-size: 1.2em; }
+  font-weight: 700; }
+  .site-title h1 a {
+    color: black; }
+  .site-title h1 a:hover {
+    color: #a52615;
+    background: inherit; }
 
 /* Typography */
 /*------------------------------*/
 body h1, body h2, body h3, body h4, body h5, body h6 {
   line-height: 40px; }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Montserrat", sans-serif; }
+
 .main-text p, .main-text li {
-  font-size: .875em;
+  font-size: 14px;
   line-height: 1.75em; }
 .main-text h2 {
   margin: 0 0 1em;
   text-transform: uppercase;
   color: black;
-  font-size: 1.5em;
   line-height: 1.25em; }
 .main-text li {
   margin-bottom: .5em; }
@@ -127,7 +116,7 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   color: #8a8782;
   margin-top: 1em;
   margin-bottom: 0;
-  font-size: .75em;
+  font-size: 12px;
   width: 250px;
   line-height: 1.4em;
   float: right; }
@@ -135,21 +124,32 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 .emphasize {
   font-size: 150%; }
 
-/* IE8 */
-/*------------------------------*/
-.ie8 .site-title h1 {
-  font-size: 2em; }
-
 /* Drupal UI bug fixes */
 /*------------------------------*/
 .main-content header, .main-content footer {
   border: none; }
 
+.site-subtitle h2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #4d4e53;
+  text-transform: uppercase;
+  margin-top: 0;
+  line-height: 1.4em; }
+
+@media (min-width: 768px) {
+  .site-title {
+    text-align: right; }
+    .site-title h1 {
+      margin: 50px 0; }
+
+  .site-subtitle h2 {
+    margin-top: 55px;
+    font-size: 24px; } }
 /* Site branding and top navigation */
 /*----------------------------------*/
 .navbar {
-  margin-bottom: 0;
-  text-align: right; }
+  margin-bottom: 0; }
   .navbar .container {
     width: 1170px; }
   .navbar .brand {
@@ -164,12 +164,11 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
       display: block;
       margin-top: .25em; }
   .navbar .nav {
-    float: right;
     margin-right: 0;
     margin-bottom: 30px; }
     .navbar .nav li {
       float: none;
-      font-size: 1em;
+      font-size: 16px;
       margin-bottom: 0; }
       .navbar .nav li a {
         text-shadow: 0 0 0;
@@ -178,7 +177,8 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
         padding: 5px 0;
         text-transform: uppercase; }
       .navbar .nav li a:hover {
-        color: #a52615; }
+        color: #a52615;
+        background: inherit; }
     .navbar .nav li:first-child a {
       border: none; }
     .navbar .nav li.active a,
@@ -188,6 +188,15 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
       box-shadow: none; }
+
+.navbar-collapse {
+  padding-right: 0; }
+
+.navbar-toggle {
+  background: black;
+  border-radius: 0; }
+  .navbar-toggle .icon-bar {
+    background: white; }
 
 /* Sidebar navigation */
 /*------------------------------*/
@@ -214,6 +223,11 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 .contextual-links-wrapper a:hover {
   background-color: transparent; }
 
+@media (min-width: 768px) {
+  .navbar {
+    text-align: right; }
+    .navbar .nav {
+      float: right; } }
 /* Hero */
 /*------------------------------*/
 .hero img {
@@ -257,9 +271,11 @@ footer {
     margin: 0 0 1em; }
     footer ul.nav li {
       display: inline-block;
-      font-size: .875em;
+      font-size: 14px;
       border-left: 1px solid #cfcfcf;
       padding: 0 5px 0 10px; }
+      footer ul.nav li a {
+        padding: 0; }
       footer ul.nav li a:hover {
         color: white;
         background: #a52615; }
@@ -276,7 +292,7 @@ footer {
     color: white;
     background: #a52615; }
   footer p {
-    font-size: .875em; }
+    font-size: 14px; }
 
 /* Sidebar images */
 /*------------------------------*/
@@ -287,112 +303,4 @@ footer {
   .sidebar-image img {
     border-bottom: 3px solid #a52615; }
 
-@media (min-width: 980px) and (max-width: 1199px) {
-  .site-title h1 {
-    font-size: 2.5em; }
-
-  .site-subtitle h2 {
-    font-size: 1.25em; } }
-@media (min-width: 768px) and (max-width: 979px) {
-  body {
-    font-size: 90%; }
-
-  .navbar .btn-navbar {
-    display: none; }
-
-  .nav-collapse,
-  .nav-collapse.collapse {
-    overflow: visible; }
-
-  .nav-collapse .nav > li {
-    float: none;
-    font-size: 90%; }
-  .nav-collapse .nav > li > a {
-    font-weight: normal;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0; }
-  .nav-collapse .nav > li > a:hover {
-    background: inherit; }
-
-  .site-title h1 {
-    font-size: 2em; }
-
-  .site-subtitle h2 {
-    font-size: 1.1em; } }
-@media (max-width: 767px) {
-  body {
-    padding: 0;
-    margin: 0;
-    font-size: 90%; }
-
-  .navbar {
-    text-align: left; }
-    .navbar .btn-navbar {
-      background: #8a8782;
-      margin-top: -100px;
-      display: block;
-      border-radius: 0; }
-    .navbar .btn-navbar:hover {
-      background: #8a8782; }
-    .navbar .nav {
-      float: none;
-      padding: 5px 0; }
-      .navbar .nav li a,
-      .navbar .nav li a:hover {
-        background-image: none;
-        border: 0; }
-      .navbar .nav li a {
-        color: #8a8782;
-        font-weight: normal;
-        padding-left: 10px; }
-      .navbar .nav li.active a,
-      .navbar .nav li.active a:hover {
-        background: #a52615;
-        color: white;
-        -webkit-border-radius: 0;
-        -moz-border-radius: 0;
-        border-radius: 0; }
-
-  .site-title {
-    text-align: left; }
-    .site-title h1 {
-      margin: 20px 0 0; }
-
-  .site-subtitle h2 {
-    margin-top: 0; }
-
-  .container {
-    padding: 0 10px; }
-
-  .nav-collapse {
-    background: #cfcfcf;
-    margin-top: 10px;
-    margin-bottom: 10px; }
-    .nav-collapse .nav > li > a:hover,
-    .nav-collapse .nav > li > a {
-      font-weight: normal;
-      -webkit-border-radius: 0;
-      -moz-border-radius: 0;
-      border-radius: 0; }
-    .nav-collapse .nav {
-      margin: 0; }
-    .nav-collapse .nav > li > a {
-      margin-bottom: 0; }
-
-  footer .container {
-    padding: 20px 10px; }
-  footer ul.footer-nav li {
-    margin-bottom: 5px; }
-
-  .sidebar-image {
-    display: none; } }
-@media (max-width: 480px) {
-  .navbar .btn-navbar {
-    margin-top: -60px; }
-
-  .site-title h1 {
-    margin-bottom: 0.5em; }
-
-  .site-subtitle h2 {
-    line-height: 1.2em; } }
+/*# sourceMappingURL=style.css.map */

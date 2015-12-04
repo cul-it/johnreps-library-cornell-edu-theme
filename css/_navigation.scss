@@ -3,7 +3,6 @@
 
 .navbar {
 	margin-bottom: 0;
-	text-align: right;
 	.container { width: 1170px; } // bootstrap override to set fixed width
 	.brand {
 		float: none;
@@ -19,12 +18,11 @@
 		}
 	}
 	.nav {
-		float: right;
 		margin-right: 0;
 		margin-bottom: 30px;
 		li {
 			float: none;
-			font-size: 1em;
+			font-size: 16px;
 			margin-bottom: 0;
 			a {
 				text-shadow: 0 0 0;
@@ -33,7 +31,9 @@
 				padding: 5px 0;
 				text-transform: uppercase; }
 			a:hover { 
-				color: $red; }
+				color: $red;
+				background: inherit;
+			}
 		}
 		li:first-child {
 			a { border: none; }
@@ -49,7 +49,16 @@
 		}
 	}
 }
-
+.navbar-collapse {
+	padding-right: 0;
+}
+.navbar-toggle {
+	background: black;
+	border-radius: 0;
+	.icon-bar {
+		background: white;
+	}
+}
 
 /* Sidebar navigation */
 /*------------------------------*/
@@ -79,4 +88,24 @@
 	a:hover {
 		background-color: transparent;
 	}
+}
+
+
+// MEDIA QUERIES
+// -------------------------
+// Small devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	.navbar {
+		text-align: right;
+		.nav {
+			float: right;
+		}
+	}
+}
+
+// Medium devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+// Large devices (desktops, 1200px and up)
+@media (min-width: 1200px) {
 }

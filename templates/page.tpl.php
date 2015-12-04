@@ -73,7 +73,7 @@
 <section class="cornell-identity">
   <div class="container">
     <div class="row">
-      <div class="span5">
+      <div class="col-sm-5">
         <div class="cu-logo">
           <img src="/sites/all/themes/bootstrap_johnreps/images/cul-logo-gray.gif">
           <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
@@ -83,7 +83,7 @@
           </div>
         </div>
       </div>
-      <div class="span6 search-links hidden-phone">
+      <div class="col-sm-6 search-links hidden-xs">
         <ul>
           <li><a href="http://www.library.cornell.edu/accessiblesearch/">Search Library</a></li>
           <li><a href="http://www.cornell.edu/search/">Search Cornell</a></li>
@@ -96,10 +96,16 @@
 <header>
   <div class="container">
     <div class="row">
-      <div class="span5 site-title">
+      <div class="col-sm-5 site-title">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <h1><a href="<?php print $front_page; ?>"><?php print $site_name; ?></a></h1>
       </div>
-      <div class="span6 offset1 site-subtitle">
+      <div class="col-sm-6 col-sm-offset-1 site-subtitle">
         <h2><?php print $site_slogan; ?></h2>
       </div>
     </div>
@@ -109,14 +115,9 @@
 <section class="main-content">
   <div class="container">
     <div class="row">
-      <div class="span5">
+      <div class="col-sm-5">
         <div class="navbar">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <div class="nav-collapse collapse">
+          <div id="navbar" class="navbar-collapse collapse">
             <div class="nav">
               <?php print render($page['navigation']); ?>
             </div>
@@ -124,7 +125,7 @@
         </div>
         <?php print render($page['sidebar']); ?>
       </div>
-      <div class="span6 offset1 main-text">
+      <div class="col-sm-6 col-sm-offset-1 main-text">
         <?php print render($page['highlighted']); ?>
         <?php print $messages; ?>
         <?php print render($tabs); ?>
@@ -153,7 +154,7 @@
 
 <footer>
   <div class="container">
-    <div class="span12">
+    <div class="col-sm-12">
       <?php print render($page['footer']); ?>
     </div>
   </div>

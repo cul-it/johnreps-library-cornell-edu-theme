@@ -26,30 +26,14 @@ a:active {
 /*------------------------------*/
 
 .site-title {
-	text-align: right;
 	h1 { 
-		font-size: 2.625em;
+		font-size: 40px;
 		text-transform: uppercase;
-		margin: 50px 0;
 		font-weight: 700;
 		a { color: black; }
 		a:hover { 
 			color: $red;
 			background: inherit; }
-	}
-}
-
-.site-subtitle {
-	h2 {
-		font-weight: 400;
-		font-size: 1.5em;
-		color: $cornell-primary;
-		text-transform: uppercase;
-		margin-top: 55px; }
-}
-.ie8 {
-	.site-subtitle {
-		h2 { font-size: 1.2em; }
 	}
 }
 
@@ -60,15 +44,18 @@ body {
 	h1, h2, h3, h4, h5, h6 { line-height: 40px; }
 }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: $baseFontFamily;
+}
 .main-text {
 	p, li  { 
-		font-size: .875em;
+		font-size: 14px;
 		line-height: 1.75em; }
 	h2 {
 		margin: 0 0 1em;
 		text-transform: uppercase;
 		color: black;
-		font-size: 1.5em;
+		// font-size: 1.5em;
 		line-height: 1.25em; }
 	li { margin-bottom: .5em; }
 }
@@ -84,23 +71,51 @@ body {
 		color: $mediumGray;
 		margin-top: 1em;
 		margin-bottom: 0;
-		font-size: .75em;
+		font-size: 12px;
 		width: 250px;
 		line-height: 1.4em;
 		float: right; }
 }
 .emphasize { font-size: 150%; }
 
-/* IE8 */
-/*------------------------------*/
-.ie8 {
-	.site-title {
-		h1 { font-size: 2em; }
-	}
-}
-
 /* Drupal UI bug fixes */
 /*------------------------------*/
 .main-content {
 	header, footer { border: none; }
+}
+
+.site-subtitle {
+	h2 {
+		font-weight: 400;
+		font-size: 16px;
+		color: $cornell-primary;
+		text-transform: uppercase;
+		margin-top: 0;
+		line-height: 1.4em;
+	}
+}
+
+
+// MEDIA QUERIES
+// -------------------------
+// Small devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	.site-title {
+		text-align: right;
+		h1 { 
+			margin: 50px 0;
+		}
+	}
+	.site-subtitle {
+		h2 {
+			margin-top: 55px;
+			font-size: 24px;
+		}
+	}
+}
+// Medium devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+// Large devices (desktops, 1200px and up)
+@media (min-width: 1200px) {
 }
